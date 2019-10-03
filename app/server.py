@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/uv3q6usyuq3oyst/export.pkl?dl=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/nigscuw6ovobg20/export.pkl?dl=1'
+export_file_name = 'export (1).pkl'
 
 classes = ['Disaster','Not Disaster']
 path = Path(__file__).parent
